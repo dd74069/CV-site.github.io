@@ -13,14 +13,26 @@
         <p><a href="contact.html">Contact Dante Dunham</a></p>
     </nav>
     <header>
+        <div class="header-left">
         <h1 class="hover-underline">Dante<br>Dunham</h1>
-        <img class="holographic-card" src="images/D-Dunham-Headshot.png" width="220px" alt="A professional headshot of Dante Dunham in a suit with a red tie.">
-    </header>
-    <div class="address">
-        <p><i class="fas fa-map-pin"></i>868 Ivy Ridge Drive, Loganville, GA 30052</p>
-        <p><i class="fas fa-phone"></i>(678) 308-5331</p>
-        <p><i class="fas fa-envelope"></i>dd74069@uga.edu</p>
+
+        <div class="contact-row">
+            <p><i class="fas fa-phone"></i> (678) 308-5331</p>
+            <p><i class="fas fa-envelope"></i> dd74069@uga.edu</p>
+        </div>
+
+        <p class="header-address">
+            <i class="fas fa-map-pin"></i>
+            868 Ivy Ridge Drive, Loganville, GA 30052
+        </p>
     </div>
+
+    <img class="holographic-card"
+         src="images/D-Dunham-Headshot.png"
+         width="220px"
+         alt="A professional headshot of Dante Dunham in a suit with a red tie.">
+    </header>
+    <hr>
     <p class="tagline">
         I am a Computer Science student at UGA with a strong interest in software development, web technologies, and applied artificial intelligence. My professional goal is to build intuitive, impactful systems that solve real-world problems while continuing to grow as a developer through hands-on projects and collaborative environments.
     </p>
@@ -31,7 +43,7 @@
         <dl>
             <dt>University of Georgia</dt>
             <dd>GPA: 3.93</dd>
-            <dt>Bachelor of Science</dt>
+            <dt>Bachelor of Science, Computer Science</dt>
             <dd>May 2027</dd>
         </dl>
         </div>
@@ -45,27 +57,64 @@
         </dl>
         </div>
     </section>
-    <section class="blocks">
+    <section class="blocks skills-section">
         <h3>Skills</h3>
         <ul>
             <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
             <li>Java</li>
             <li>C</li>
-            <li>CSS</li>
             <li>Photoshop</li>
         </ul>
     </section>
     <section class="blocks">
-        <h3>Leadership and Experience</h3>
-        <dl>
-            <dt>Co-Owner/Founder of <a href="https://share.google/3Axuca1S6TagyuMw7" target="_blank">Everybody's Nutrition</a></dt>
-            <dd>Dec 2020 &ndash; Present</dd>
-            <dt>Resident Assistant for UGA Housing</dt>
-            <dd>Apr 2025 &ndash; Present</dd>
-            <dt>Community Service Assistant for UGA Housing</dt>
-            <dd>Aug 2024 &ndash; Apr 2025</dd>
-        </dl>
-    </section>
+    <h3>Leadership and Experience</h3>
+
+    <dl>
+        <dt>
+            Co-Owner/Founder of 
+            <a href="https://share.google/3Axuca1S6TagyuMw7" target="_blank">
+                Everybody's Nutrition
+            </a>
+        </dt>
+        <dd>Nov 2020 &mdash; Present</dd>
+    </dl>
+    <p class="job-desc">
+        Designed and managed digital marketing and branding initiatives, analyzing engagement data to refine monthly strategy.
+        <br>Created performance reports to guide business decisions while leading hiring, training, and employee management.
+        <br>Oversaw inventory organization, ordering, and accounting operations.
+    </p>
+
+    <dl>
+        <dt>Resident Assistant &mdash; UGA Housing</dt>
+        <dd>Apr 2025 &mdash; Present</dd>
+    </dl>
+    <p class="job-desc">
+        Foster and manage a diverse residential community while organizing engagement events that strengthen peer networks.
+        <br>Mediate conflicts and provide support during high-pressure or crisis situations, ensuring a safe and inclusive environment.
+    </p>
+
+    <dl>
+        <dt>Community Services Assistant &mdash; UGA Housing</dt>
+        <dd>Aug 2024 &mdash; Apr 2025</dd>
+    </dl>
+    <p class="job-desc">
+        Supported housing operations during hall openings, closings, and emergency situations.
+        <br>Provided professional customer service to residents, visitors, and staff while assisting with administrative responsibilities.
+    </p>
+
+    <dl>
+        <dt>Front Desk Management & Digital Designer &mdash; 
+            <a href="https://www.flexbodyshop.com/" target="_blank">Flex Body Shop</a></dt>
+        <dd>Mar 2018 &mdash; Dec 2021</dd>
+    </dl>
+    <p class="job-desc">
+        Managed front desk operations, member records, and payment processing while maintaining organized facility operations.
+        <br>Designed digital marketing materials and branded merchandise to support business growth.
+    </p>
+
+</section>
     <section class="blocks" style="width: 80%;">
         <h3 style="font-size: 30px;">Projects</h3>
         <div class="three-col">
@@ -76,6 +125,7 @@
                     <li>Built in Java</li>
                     <li>Linked the utility of 2 APIs and used threading to improve performance</li>
                     <li>Visualized the APIs in JavaFX by showcasing different elements stored in the JSON</li>
+                    <li>Here's the <a href="https://github.com/dd74069/cs1302-api-app" target="_blank" style="color: #444;">GitHub Repository!</a></li>
                 </ul>
             </div>
             <div class="card">
@@ -84,6 +134,8 @@
                 <ul>
                     <li>Built in Java</li>
                     <li>Utilized 2D Arrays to build a local 2-player Connect Four Game</li>
+                    <li>Implemented win detection logic and input validation</li>
+                    <li>Designed clean terminal-based UI</li>
                 </ul>
             </div>
             <div class="card">
@@ -92,7 +144,8 @@
                 <ul>
                     <li>Built in Java</li>
                     <li>Utilized the iTunes API and threading to make a rotating image gallery</li>
-                    <li>Visualized in JavaFX with pictures from many sources depending on search terms and selected media type</li>
+                    <li>Visualized in JavaFX with pictures</li>
+                    <li>Parsed JSON responses to extract media metadata and dynamically update UI components</li>
                 </ul>
             </div>
         </div>
